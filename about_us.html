@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-weight: bold;
+            color: #000000;
+        }
+        
+        .navbar {
+            text-align: left;
+            background-color: #6e4405;
+            height: 40px;
+            padding: 10px;
+        }
+        
+        .navbar a {
+            color: aliceblue;
+            padding: 10px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {  
+            background-color: #065698;
+            color: black;
+        }
+        
+        body {
+            position: relative;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        /* Background image styling */
+        body::after {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://th.bing.com/th/id/R.8546820ee580a8cdb3a9c1ebd11a4daa?rik=4fwMklQJCQU1Ow&riu=http%3a%2f%2fredonline.cdnds.net%2fmain%2fthumbs%2f25788%2fstack_of_books.jpg&ehk=xwtWWiDiDhhxV8yXIhXFgeNFvZ4ETt83uVe2km2jabI%3d&risl=&pid=ImgRaw&r=0') no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.8; /* Adjust opacity for transparency */
+            z-index: -1;
+        }
+        
+        .content {
+            flex: 1;
+            padding: 20px;
+            color: #333;
+            position: relative;
+            z-index: 1;
+        }
+        
+        footer {
+            background-color: #6e4405;
+            color: bisque;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        p{
+            color:rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 20px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#about1">About</a>
+    </nav>
+
+    <div class="content">
+        <h1>About Us</h1>
+        <p>Welcome to SellUp - your go-to platform for sustainable book buying and selling. At SellUp, we believe in giving books a second life. By connecting buyers and sellers of pre-loved books, we’re helping reduce waste, lessen the demand for new production, and make quality reading more accessible and affordable for everyone.</p>
+
+        <p>Our mission is to create a community where books are valued for their stories and knowledge, not just their novelty. When you buy or sell on SellUp, you’re not only saving money but also supporting eco-friendly practices that benefit the planet. Each transaction helps reduce environmental impact and makes books available at pocket-friendly prices.</p>
+
+        <p>Join us in promoting a sustainable, budget-friendly way to read. With SellUp, you can discover great books, share knowledge, and contribute to a healthier planet – one book at a time.</p>
+    </div>
+    
+    <footer>
+        SellUp. All rights reserved. | <a href="#privacy-policy" style="color: white;">Privacy Policy</a> | <a href="#contact" style="color: white;">Contact Us</a>
+    </footer>
+</body>
+</html>
